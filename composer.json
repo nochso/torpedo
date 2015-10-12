@@ -1,0 +1,27 @@
+{
+    "name": "fastpress/torpedo",
+    "description": "decoupled libraries for building small application",
+    "keywords": [
+        "php framework",
+        "micro framework",
+        "php torpedo"
+    ],
+    "homepage": "https://github.com/fastpress/torpedo",
+    "license": "MIT", 
+    "authors": [
+        {
+        "name": "Simon Daniel",
+        "email": "eritr3a@gmail.com",
+        "role": "Creator / Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "suggest":{
+        "fastpress/fastpress": "A fast PHP blogging app made with fastpress/Torpedo"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.6.*"
+    }
+}
