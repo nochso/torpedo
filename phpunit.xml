@@ -7,20 +7,18 @@
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          processIsolation="false"
-         stopOnFailure="false"
-         stopOnSkipped="false"
+         stopOnFailure="true"
          syntaxCheck="false"
          bootstrap="test/bootstrap.php"
         >
     <testsuites>
-        <testsuite name="Fastpress Tests">
-            <directory>./test/</directory>
+        <testsuite name="Torpedo Tests">
+            <directory>./test/lib/</directory>
         </testsuite>
     </testsuites>
-
     <filter>
         <whitelist>
-            <directory>./src/</directory>
+            <directory>lib</directory>
         </whitelist>
     </filter>
 </phpunit>
